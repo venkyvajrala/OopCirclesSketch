@@ -13,10 +13,7 @@ public class Circle {
         this.instance = instance;
     }
 
-
     public void display() {
-
-        System.out.println(horizontalPosition + "," + verticalPosition + "," + diameter);
         instance.ellipse(horizontalPosition, verticalPosition, diameter, diameter);
     }
 
